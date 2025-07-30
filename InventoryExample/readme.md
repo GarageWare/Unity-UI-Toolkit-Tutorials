@@ -1,4 +1,4 @@
-# Inventory UI Toolkit Runtime Tutorial
+# Runtime Data Binding of Inventory Data in UI Toolkit Tutorial
 ## Example Code
 ### Introduction
 This repository contains example code for the Inventory Data Binding in Unity UI Toolkit tutorial created by Garage-Ware Games.
