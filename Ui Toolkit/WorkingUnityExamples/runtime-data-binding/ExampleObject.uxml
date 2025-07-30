@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement data-source="project://database/Assets/Tutorials/DataBinding/WorkingUnityExamples/runtime-data-binding/New%20Example%20Object.asset?fileID=11400000&amp;guid=71418c61cd4a6e2469e255812d9b3d91&amp;type=2#New Example Object" name="VisualElement">
+        <ui:Vector3Field label="Vec3 Field">
+            <Bindings>
+                <ui:DataBinding property="label" data-source-path="vector3Label" binding-mode="ToTarget" />
+                <ui:DataBinding property="value" data-source-path="vector3Value" />
+            </Bindings>
+        </ui:Vector3Field>
+        <ui:FloatField label="Float Field" value="42.2">
+            <Bindings>
+                <ui:DataBinding property="value" data-source-path="sumOfVector3Properties" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:FloatField>
+        <ui:Label text="Label" data-source-path="dangerLevel">
+            <Bindings>
+                <ui:DataBinding property="text" binding-mode="ToTarget" source-to-ui-converters="Value To Progress" />
+                <ui:DataBinding property="style.backgroundColor" binding-mode="ToTarget" source-to-ui-converters="Value To Progress" />
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>
