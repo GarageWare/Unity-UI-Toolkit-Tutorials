@@ -9,3 +9,5 @@ All examples should run in Unity 6 and above.
 You can read the tutorial docs on our website at: https://www.garage-ware.com/tutorials/visual-elements/data-binding
 
 Additional Resources can be found in the Unity Documentation at: https://docs.unity3d.com/Manual/UIE-data-binding.html
+
+If you find any errors or want to request a specific subject, let us know: info@garage-ware.com

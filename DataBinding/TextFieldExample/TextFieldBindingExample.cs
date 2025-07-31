@@ -59,19 +59,23 @@ public class TextFieldBindingExample : MonoBehaviour
         _dataModel = new TextFieldDataModel();
         _textField = new TextField();
 
+        // Setting the data source of an element will automatically apply to its children
+        // UNLESS specifically changed at a later time.
         root.dataSource = _dataModel;
 
         // Bind the text field to the data model using SetBinding
+        // Set Binding needs the items destination container, here it is the VALUE for the Textfield element
+        // and a binding that contains the datasourcepath within the datasource container
+        // Here it is using a new PropertyPath with the name of the datasource and the field within.
         _textField.SetBinding("value", new DataBinding
         {
             dataSourcePath = new PropertyPath(nameof(_dataModel.MyText))
+
         });
-
-        // Add the text field to the UI
-        root.Add(_textField);
-
-        // Update the data model to see changes in the UI
-        _dataModel.MyText = "Hello, World!";
+        // Thats it, any data that changes to the value of datamodel.MyText will be populated into the UI element
+        // Further options can be set that allow for two way data exchange and can be set when setting the datasource
+        // like so: bindingMode = BindingMode.TwoWay
+        // See: https://docs.unity3d.com/Manual/UIE-runtime-binding-mode-update.html
 
         // Create an action to listen for a space bar press
         _spaceAction = new InputAction(binding: "<Keyboard>/space");
