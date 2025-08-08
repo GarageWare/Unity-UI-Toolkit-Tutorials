@@ -13,6 +13,8 @@ incomplete on runtime examples that are working without modifications or structu
 The code in this repo is intended to be used as a supplement to the Unity documentation and tutorials with the items we have copied here being working runtime versions of their examples.
 All code from Unity is in the *WorkingUnityExamples* folder and have the minimum changes needed to make the examples usable in a runtime environment.
 
+We have recently updated the tutorial with new documentation and code examples.
+The older version of the source code can be accessed in the ```data-binding-v1``` branch
 ### Contact
 If you have any questions or feedback, please feel free to contact us **info@garage-ware.com**
 

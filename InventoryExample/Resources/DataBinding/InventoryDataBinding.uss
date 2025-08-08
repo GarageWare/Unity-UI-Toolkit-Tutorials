@@ -1,0 +1,106 @@
+#FormLayout
+{
+    flex-direction: column;
+    margin: auto;
+    min-width: 400px;
+    min-height: 420px;
+    width: 400px;
+    height: 420px;
+    background-color: antiquewhite;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-color: black;
+    border-top-width: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-left-color: black;
+    border-left-width: 1px;
+}
+
+#WindowHeader
+{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: black;
+}
+
+
+#ClockElement
+{
+}
+
+#ListView
+{
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+#LineItem
+{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    min-height: 71px;
+    height: 71px;
+}
+
+#LineItem > #IconHolder
+{
+    min-width: 71px;
+    width: 71px;
+    height: 71px;
+}
+
+#LineItem > #ItemDetails
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+#LineItem > #ItemDetails > #DetailsHeader
+{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 30px;
+    font-size: 20px;
+    -unity-font-style: bold;
+}
+
+#LineItem > #ItemDetails > #DetailsHeader > #nameLabel
+{
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+}
+
+#LineItem > #ItemDetails > #DetailsHeader > #valueLabel
+{
+    padding-right: 10px;
+    -unity-text-align: middle-right;
+}
+#LineItem > #ItemDetails > #itemDescription
+{
+    flex-grow: 1;
+}
