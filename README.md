@@ -24,10 +24,6 @@ The older version of the source code can be accessed in the ```data-binding-v1``
 If you have any questions or feedback, please feel free to contact us **info@garage-ware.com**
 
 ---
-### Contact
-If you have any questions or feedback, please feel free to contact us at [info@garage-ware.com](mailto:info@garage-ware.com)
-
----
 #### Check out our Assets on the [Unity Asset Store](https://prf.hn/l/789Mgkx/)
 [![WindowFramework for Unity UI Toolkit](https://www.garage-ware.com/assets/images/WindowFramework/window-framework-logo-v2-thumb.webp)](https://prf.hn/l/y8bbPJj/)
 
