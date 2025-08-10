@@ -6,8 +6,8 @@ https://www.garage-ware.com/tutorials/visual-elements
 The code is organized into folders corresponding to each tutorial, and each folder contains a README file with instructions on how to run the example code.
 
 ### Current Tutorials Covering This Repository
-[Understanding Data Binding from C# scripts in Unity UI Toolkit](https://www.garage-ware.com/tutorials/visual-elements/data-binding)<br>
-[Build a Runtime Inventory View using Data Binding in Unity 6 UI Toolkit](https://www.garage-ware.com/tutorials/visual-elements/simple-inventory-databinding-example)
+- [Understanding Data Binding from C# scripts in Unity UI Toolkit](https://www.garage-ware.com/tutorials/visual-elements/data-binding)<br>
+- [Build a Runtime Inventory View using Data Binding in Unity 6 UI Toolkit](https://www.garage-ware.com/tutorials/visual-elements/simple-inventory-databinding-example)
 
 
 ### Unity Examples
@@ -18,14 +18,8 @@ incomplete on runtime examples that are working without modifications or structu
 The code in this repo is intended to be used as a supplement to the Unity documentation and tutorials with the items we have copied here being working runtime versions of their examples.
 All code from Unity is in the *WorkingUnityExamples* folder and have the minimum changes needed to make the examples usable in a runtime environment.
 
-We have recently updated the tutorial with new documentation and code examples.
-The older version of the source code can be accessed in the ```data-binding-v1``` branch
 ### Contact
 If you have any questions or feedback, please feel free to contact us **info@garage-ware.com**
-
----
-### Contact
-If you have any questions or feedback, please feel free to contact us at [info@garage-ware.com](mailto:info@garage-ware.com)
 
 ---
 #### Check out our Assets on the [Unity Asset Store](https://prf.hn/l/789Mgkx/)
