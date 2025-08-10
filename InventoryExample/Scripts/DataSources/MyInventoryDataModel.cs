@@ -180,7 +180,7 @@ public class MyInventoryDataModel : INotifyPropertyChanged
     /// Changes to this property trigger notification events to update any observers or bound UI elements.
     /// </summary>
     [DontCreateProperty]
-    private string _eventMessage = "Click Me";
+    private string _eventMessage = "Reset";
 #endregion
 
 #region CustomDataBinding Example
